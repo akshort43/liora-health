@@ -7,7 +7,7 @@ import { useState, useCallback } from "react";
 const pageLinks = [
   { label: "Home", path: "/" },
   { label: "Our Story", path: "/founders" },
-  { label: "Support", path: "/support" },
+  { label: "Get Support", path: "/support" },
   { label: "FAQs", path: "/faqs" },
 ];
 
