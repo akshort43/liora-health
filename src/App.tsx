@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/liora-health">
         <Suspense fallback={null}>
           <Routes>
             <Route path="/" element={<Index />} />
